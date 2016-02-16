@@ -1,0 +1,7 @@
+{
+    "name": "DhtIcap",
+    "version": "0.0.1",
+    "author": "Mike Figley mfigley@gmail.com",
+    "license": "GPL v3 (http://www.gnu.org/licenses/gpl.html)",
+    "description": "Timer 1 ICAP Interrupt driven DHT11/21/22 Sensor library"
+}
