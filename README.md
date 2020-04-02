@@ -16,7 +16,7 @@ Mike Figley, dTC - mfigley@gmail.com
 *   DHT11 library [http://playground.arduino.cc/Main/DHT11Lib](http://playground.arduino.cc/Main/DHT11Lib)
 *   PietteTech_DHT Library [https://github.com/piettetech/PietteTech_DHT](https://github.com/piettetech/PietteTech_DHT/)
 
-While the above DHT library methods may use interrupt-driven techniques, this library takes advantage of input-capture features on your micro-controller, which greatly simplifies reading from DHT sensors. **Works on Arduino Pin 8 only!**
+While the above DHT library methods may use interrupt-driven techniques, this library takes advantage of input-capture features on your micro-controller, which greatly simplifies reading from DHT sensors. **Works on Arduino Uno Pin 8 only!**
 
 * * *
 
@@ -31,7 +31,7 @@ While the above DHT library methods may use interrupt-driven techniques, this li
 
 ## Potential Issues
 
-*   Only works on Pin 8, as this is the only ICAP pin available (Arduino). There are NO options for using a different pin. (Pin can be changed with a #define, though)
+*   Only works on Pin 8, as this is the only ICAP pin available (Arduino). There are NO options for using a different pin. (Pin can be changed in software with a #define, though)
 *   Uses 16-bit Timer1, Other libraries could conflict if they mess with Timer1.
 *   Defines two interrupt handlers: TIMER1_OVF_vect (signals "done"), TIMER1_CAPT_vect (captures data)
 *   Kinda big - code-wise. Size could be reduced by removing some convenience functionality.
