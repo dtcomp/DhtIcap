@@ -1,16 +1,15 @@
-**<big>Timer1 ICAP Interrupt driven DHT11/21/22 sensor library for Arduino</big>
-**
+## Timer1 ICAP Interrupt driven DHT11/21/22 sensor library for Arduino (Uno)
 
-Read DHT11/21/22 sensors with Timer1 input-capture interrupt.
+### Read DHT11/21/22 sensors with Timer1 input-capture interrupt.
 
 Mike Figley, dTC - mfigley@gmail.com
 
 | VERSION: | 0.0.1
- |
+|
 | PURPOSE: | Read temperature/humidity serial data from sensor, fast. |
 | LICENSE: | GPL v3 (http://www.gnu.org/licenses/gpl.html) |
 
-BASED ON:
+### BASED ON:
 
 *   [InputCapture.ino](https://gist.github.com/mpflaga/4404996) interrupt code by [https://github.com/mpflaga](https://github.com/mpflaga)
 *   DHT11 interrupt library [https://github.com/niesteszeck](https://github.com/niesteszeck)
@@ -21,7 +20,7 @@ While the above DHT library methods may use interrupt-driven techniques, this li
 
 * * *
 
-# Advantages
+## Advantages
 
 *   Non-blocking - your sketch can keep running.
 *   Speed - Readings occur < 10mS. Although DHT sensors update ~every 2 seconds, accessing data is quick.
