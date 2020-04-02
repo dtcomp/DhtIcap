@@ -16,7 +16,7 @@ Mike Figley, dTC - mfigley@gmail.com
 *   DHT11 library [http://playground.arduino.cc/Main/DHT11Lib](http://playground.arduino.cc/Main/DHT11Lib)
 *   PietteTech_DHT Library [https://github.com/piettetech/PietteTech_DHT](https://github.com/piettetech/PietteTech_DHT/)
 
-While the above DHT library methods may use interrupt-driven techniques, this library takes advantage of input-capture features on your micro-controller, which greatly simplifies reading from DHT sensors. **Works on Arduino Uno Pin 8 only!**
+While the above DHT library methods may use interrupt-driven techniques, this library takes advantage of input-capture features on your avr-like uC, which greatly simplifies reading from DHT11 sensors. **Works on Arduino Uno Pin 8 only!**
 
 * * *
 
